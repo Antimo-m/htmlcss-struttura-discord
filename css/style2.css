@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
+
+.inizio-pagina{
+   width: 100%;
+   max-width: 600px;
+   margin: 0 auto;
+   
+}
 header {
     background: #ffb347;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -27,7 +38,7 @@ header .links {
 
 .hero{
     background-color: blue;
-    padding: 50px 0;
+    padding: 30px 0;
     text-align: center;
 }
 
@@ -37,8 +48,45 @@ header .links {
 .hero .box{
     background-color: violet;
     width: 80%;
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto ;
     height: 150px;
 }
+
+.container{
+  padding: 30px 0;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  
+}
+
+.card{
+    width: 65%;
+    height: 220px;
+    background-color: rgb(82, 82, 255);
+    display: flex;
+    max-width: 440px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.card1 {
+    width: 35%;
+    height: 220px;
+    background-color: pink;
+    display: flex;
+    max-width: 220px;
+    }
+
+
+.grey{
+   background-color: grey;
+}
+
 
