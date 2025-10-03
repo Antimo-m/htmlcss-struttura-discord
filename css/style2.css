@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #ffb347;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+header .links {
+    gap: 15px;
+    display: flex;
+  
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+.hero{
+    background-color: blue;
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+
+
+.hero .box{
+    background-color: violet;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto ;
+    height: 150px;
+}
+
